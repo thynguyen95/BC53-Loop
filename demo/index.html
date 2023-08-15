@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Demo loop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form-group">
+            <label for="">Nhập vào 1 số chẵn</label>
+            <input type="text" name="" id="number" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <button class="btn btn-success" onclick="submit()">submit</button>
+        <div class="bg-success" id="result">
+
+        </div>
+
+
+        <br><br><br><br><br>
+        <div class="bg-warning">
+            tính tổng số nhập vào: <br>
+            VD: <br>
+            3 = 1 + 2 + 3 = 6;<br>
+            5 = 1 + 2 + 3 + 4 + 5 = 15
+        </div>
+        <div class="form-group">
+            <label for="">Nhập vào 1 số n</label>
+            <input type="text" name="" id="number2" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <button class="btn btn-success" onclick="handleSum()">submit</button>
+        <div class="bg-success" id="result2">
+
+        </div>
+
+        <br><br><br><br><br>
+        <div class="bg-warning">
+            nhập vào 1 số n, in ra số lượng ký tự * = số n nhập vào
+        </div>
+        <div class="form-group">
+            <label for="">Nhập vào 1 số n</label>
+            <input type="text" name="" id="number3" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <button class="btn btn-success" onclick="printStar()">submit</button>
+        <div class="bg-success" id="result3">
+
+        </div>
+
+        <br><br><br><br><br>
+        <div class="bg-warning">
+            nhập vào 1 số n, in ra số chẵn/lẽ
+        </div>
+        <div class="form-group">
+            <label for="">Nhập vào 1 số n</label>
+            <input type="text" name="" id="number4" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <button class="btn btn-success" onclick="handleNumber()">submit</button>
+        <div class="bg-success" id="result4">
+
+        </div>
+
+        <br><br><br><br><br>
+        <div class="bg-warning">
+            nhập vào số n, tính tổng số chẵn từ 0 tới n
+        </div>
+        <div class="form-group">
+            <label for="">Nhập vào 1 số n</label>
+            <input type="text" name="" id="number5" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <button class="btn btn-success" onclick="handleSumEven()">submit</button>
+        <div class="bg-success" id="result5">
+
+        </div>
+
+
+        <br><br><br><br><br>
+        <div class="bg-warning">
+            nhập vào số hàng, số cột, in ra số hàng, số cột tương tự
+        </div>
+        <div class="form-group">
+            <label for="">số hàng</label>
+            <input type="text" name="" id="soHang" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <div class="form-group">
+            <label for="">số cột</label>
+            <input type="text" name="" id="soCot" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <button class="btn btn-success" onclick="inHangCot()">submit</button>
+        <div class="bg-success" id="result6">
+
+        </div>
+
+        <div id="tamgiac"></div>
+        <br><br><br><br><br>
+        <div id="tamGiacNguoc"></div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
